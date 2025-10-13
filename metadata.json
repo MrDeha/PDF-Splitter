@@ -1,0 +1,5 @@
+{
+  "name": "PDF Ayırıcı",
+  "description": "PDF dosyalarını belirtilen sayfa aralıklarına göre kolayca ayırın.",
+  "requestFramePermissions": []
+}

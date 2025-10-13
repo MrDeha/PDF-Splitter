@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-g">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Ayırma Aracı</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- pdf-lib kütüphanesini yüklüyoruz -->
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>PDF Ayırma Aracı</h1>
+            <p>PDF dosyanızı yükleyin ve ayırmak istediğiniz sayfaları belirtin.</p>
+        </header>
+        <main>
+            <div class="card">
+                <div class="input-group">
+                    <label for="file-upload" class="file-upload-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#fff"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/></svg>
+                        <span>PDF Dosyası Seçin</span>
+                    </label>
+                    <input id="file-upload" type="file" accept=".pdf" aria-label="PDF dosyası yükle">
+                    <p id="file-name" class="file-name-display"></p>
+                </div>
+                <div class="input-group">
+                    <label for="page-ranges">Sayfa Aralıkları</label>
+                    <input type="text" id="page-ranges" placeholder="Örn: 1-3, 5, 8-10" aria-label="Sayfa aralıklarını girin">
+                </div>
+                <button id="split-button" disabled>
+                    <span class="button-text">PDF'i Ayır</span>
+                    <span class="spinner" style="display: none;"></span>
+                </button>
+                <p id="status" role="status" aria-live="polite"></p>
+            </div>
+        </main>
+        <footer>
+            <p>PDF Splitter by Deha Çelik</p>
+        </footer>
+    </div>
+    <script type="module" src="index.tsx"></script>
+</body>
+</html>
