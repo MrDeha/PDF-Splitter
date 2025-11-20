@@ -1,5 +1,9 @@
 # PDF Splitter ✂️
 
+<p align="center">
+  <img src="assets/banner.png" alt="PDF Splitter Banner" width="100%">
+</p>
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20MacOS%20%7C%20Linux-lightgrey.svg)
