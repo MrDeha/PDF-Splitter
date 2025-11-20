@@ -1,10 +1,90 @@
+# PDF Splitter ✂️
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20MacOS%20%7C%20Linux-lightgrey.svg)
+
+**PDF Splitter**, büyük PDF dosyalarını saniyeler içinde daha küçük parçalara ayırmanızı ve birleştirmenizi sağlayan, kullanıcı dostu ve hızlı bir masaüstü/web uygulamasıdır.
 
 
-**Prerequisites:**  Node.js
+---
+
+## 📑 İçindekiler
+- [Özellikler](#-özellikler)
+- [Kurulum](#-kurulum)
+- [Katkıda Bulunma](#-katkıda-bulunma)
+- [Lisans](#-lisans)
+- [İletişim](#-iletişim)
+
+---
+
+## 🚀 Özellikler
+
+* **Sayfa Aralığı Seçimi:** Belirlediğiniz sayfa aralıklarını (örn. 1-5, 10-12) ayrı dosyalar olarak kaydedin.
+* **Tekil Sayfa Ayırma:** Her sayfayı ayrı bir PDF dosyası olarak dışa aktarın.
+* **Sürükle ve Bırak:** Dosyaları kolayca arayüze sürükleyerek işlem yapın.
+* **Hızlı İşleme:** Optimize edilmiş algoritması ile büyük dosyaları bile saniyeler içinde bölün.
+* **Güvenli:** Tüm işlemler yerel makinenizde gerçekleşir, dosyalarınız sunucuya yüklenmez.
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ⚙️ Kurulum
+
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
+
+### Ön Hazırlıklar
+* [Gerekli Yazılım 1, örn: Python] yüklü olmalıdır.
+* [Gerekli Yazılım 2, örn: Node.js] yüklü olmalıdır.
+
+### Adım Adım Kurulum
+
+1.  **Repoyu klonlayın:**
+    ```bash
+    git clone [https://github.com/kullaniciadi/pdf-splitter.git](https://github.com/kullaniciadi/pdf-splitter.git)
+    cd pdf-splitter
+    ```
+
+2.  **Gerekli paketleri yükleyin:**
+    *Python için örnek:*
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *Node.js için örnek:*
+    ```bash
+    npm install
+    ```
+
+3.  **Uygulamayı çalıştırın:**
+    ```bash
+    [Çalıştırma kodu, örn: python main.py veya npm start]
+    ```
+
+---
+
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
+
+1.  Bu repoyu forklayın (Fork).
+2.  Yeni bir özellik dalı oluşturun (`git checkout -b feature/YeniOzellik`).
+3.  Değişikliklerinizi commit yapın (`git commit -m 'Yeni özellik eklendi'`).
+4.  Dalınızı pushlayın (`git push origin feature/YeniOzellik`).
+5.  Bir Pull Request (PR) oluşturun.
+
+---
+
+## 📝 Lisans
+
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakabilirsiniz.
+
+---
+
+## 📞 İletişim
+
+Proje Sahibi: **[Deha Çelik]**
+
+* GitHub: [@kullaniciadi](https://github.com/kullaniciadi)
+* LinkedIn: [linkedin-profilin](https://linkedin.com/in/profilin)
+* E-posta: [email@adresin.com]
