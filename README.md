@@ -37,15 +37,11 @@
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
 
-### Ön Hazırlıklar
-* [Gerekli Yazılım 1, örn: Python] yüklü olmalıdır.
-* [Gerekli Yazılım 2, örn: Node.js] yüklü olmalıdır.
-
 ### Adım Adım Kurulum
 
 1.  **Repoyu klonlayın:**
     ```bash
-    git clone [https://github.com/kullaniciadi/pdf-splitter.git](https://github.com/kullaniciadi/pdf-splitter.git)
+    git clone [https://github.com/MrDeha/PDF-Splitter](https://github.com/MrDeha/PDF-Splitter)
     cd pdf-splitter
     ```
 
@@ -89,4 +85,4 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi i
 
 Proje Sahibi: **[Deha Çelik]**
 
-* GitHub: [@kullaniciadi](https://github.com/MrDeha)
+* GitHub: [@MrDeha](https://github.com/MrDeha)
