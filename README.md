@@ -85,6 +85,4 @@ Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. Daha fazla bilgi i
 
 Proje Sahibi: **[Deha Çelik]**
 
-* GitHub: [@kullaniciadi](https://github.com/kullaniciadi)
-* LinkedIn: [linkedin-profilin](https://linkedin.com/in/profilin)
-* E-posta: [email@adresin.com]
+* GitHub: [@kullaniciadi](https://github.com/MrDeha)
